@@ -1,1 +1,1 @@
-<?php echo file_get_contents("/etc/openvpn/clients/client.ovpn")  ?>
+<?php echo file_get_contents("/etc/openvpn/client/client.ovpn")  ?>
