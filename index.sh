@@ -33,7 +33,7 @@ cp /etc/openvpn/server/easy-rsa/pki/crl.pem /etc/openvpn/server/crl.pem
 #Add a client
 ./easyrsa build-client-full $client nopass
 # Generates the custom client.ovpn
-newclient "$client"
+new_client "$client"
 
 # echo "Content-type: text/file"
 # echo "Content-Disposition: attachment; filename=\"$client.ovpn\""
