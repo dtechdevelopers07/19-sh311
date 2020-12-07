@@ -35,7 +35,7 @@ cp /etc/openvpn/easy-rsa/pki/crl.pem /etc/openvpn/crl.pem
 # Generates the custom client.ovpn
 new_client "$client"
 
-echo "Content-type: text/file"
+echo "Content-type: text/plain"
 # echo "Content-Disposition: attachment; filename=\"$client.ovpn\""
 echo ""
 while read c; do
